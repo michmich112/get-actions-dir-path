@@ -1,0 +1,13 @@
+name: 'Get actions dir path'
+description: 'Get the dir path for the current action. Allows to get the path to used actions in the runner'
+author: 'Michel Cantacuzene'
+branding:
+  icon: 'hash'
+  color: 'gray-dark'
+outputs:
+  dir-path:
+    description: get the absolute path to the dir containing this action
+runs:
+  using: 'node12'
+  main: 'index.js'
+

@@ -1,0 +1,22 @@
+{
+  "name": "get-actions-dir-path",
+  "version": "0.0.1",
+  "description": "Gets the dirpath for this action based on the runner context",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/michmich112/get-actions-dir-path"
+  },
+  "keywords": [
+    "github",
+    "actions"
+  ],
+  "author": "michmich112",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
