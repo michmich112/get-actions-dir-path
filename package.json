@@ -1,6 +1,6 @@
 {
   "name": "get-actions-dir-path",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gets the dirpath for this action based on the runner context",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "gh-action-stats": "0.0.7"
+    "gh-action-stats": "0.0.8"
   }
 }
