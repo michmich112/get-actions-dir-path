@@ -17,6 +17,7 @@
   "author": "michmich112",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.6.0"
+    "@actions/core": "^1.6.0",
+    "gh-action-stats": "0.0.7"
   }
 }

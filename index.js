@@ -1,3 +1,8 @@
 const core = require('@actions/core');
+const collectStats = require('gh-action-stats');
 
-core.setOutput('dir-path', __dirname);
+function main() {
+  core.setOutput('dir-path', __dirname);
+}
+
+collectStats(main);
